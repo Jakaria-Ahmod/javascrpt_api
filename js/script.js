@@ -12,7 +12,7 @@ let btn = document.querySelector('#btn').addEventListener('click', async () => {
       div.id = 'card';
       let p = document.createElement('p');
       img.src = `${Item.download_url}`;
-      p.innerHTML = `${Item.author}`;
+      p.innerHTML = `Name : ${Item.author}`;
 
       div.appendChild(img);
       div.appendChild(p);
