@@ -5,7 +5,7 @@ let btn = document.querySelector('#btn').addEventListener('click', async () => {
 
   request.addEventListener('load', function () {
     let data = JSON.parse(this.responseText);
-    console.log(data);
+    // console.log(data);
     data.map(Item => {
       let img = document.createElement('img');
       let div = document.createElement('div');
